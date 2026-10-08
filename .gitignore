@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+
+.venv/
+.venv-*/
+venv/
+__pycache__/
+.pytest_cache/
+
+resumes/
+resume_dataset_50*.zip
+output/results.json
