@@ -1,12 +1,13 @@
 # AI Resume Screening & Ranking System
 
-This project processes a directory of PDF resumes, extracts structured candidate information, applies a deterministic Python + AI eligibility filter, scores every candidate, enriches GitHub signals, and writes one final score-ranked candidate list.
+This project processes a directory of PDF resumes, extracts structured candidate information, applies a deterministic Python + AI eligibility filter, scores every candidate, enriches GitHub signals, and writes one final score-ranked candidate list. The repository includes the 50 demo resumes in `resumes/`.
 
 ## Project Overview
 
 The system is designed for a practical batch screening workflow:
 
 - Parse all resumes in a given folder
+- Include a sample dataset of 50 demo PDF resumes for running the project
 - Handle unreadable or malformed PDF files without stopping the batch
 - Extract email, phone, skills, project language, GitHub URL, and other metadata
 - Apply a hard filter for Python + AI/agentic evidence before ranking
